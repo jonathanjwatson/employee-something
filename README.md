@@ -17,3 +17,7 @@ git push -u origin master
 5. Commit
 
 ## Create Basic File Structure
+1. Create a containers folder.
+2. Inside there, create our EmployeeDirectory.jsx file.
+3. Create a class component using the `rcc` shortcut.
+4. Write `Hello world` and import into App.js
