@@ -15,7 +15,6 @@ class EmployeeDirectory extends Component {
     axios
       .get("http://dummy.restapiexample.com/api/v1/employees")
       .then((response) => {
-        console.log(response.data.data);
         this.setState({
           employees: response.data.data,
         });
